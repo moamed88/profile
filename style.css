@@ -1,0 +1,115 @@
+
+
+body {
+
+    line-height: initial;
+    font-size: larger;
+    color: #d72323;
+    background-color: #eeeeee;
+    font-family: fantasy;
+    text-align: center
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #eeeeee;
+}
+
+h2 {
+  font-family: 'Inconsolata', monospace;
+
+}
+
+
+    ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+  }
+
+  #linkedin-button{
+    border-radius: 50%;
+    color: #d72323
+
+  }
+
+  #linkedin-button:hover{
+    color: black;
+    background-color: #d72323
+
+  }
+
+  #puce {
+    color: #eeeeee
+  }
+
+  ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+
+ margin-left:70px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;
+ width:100px;
+ background-color:#d72323;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+
+.card {
+  background-color: #303841;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.puces{
+
+
+
+}
